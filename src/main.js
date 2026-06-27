@@ -2,6 +2,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import './style.css';
+import { brandMarkUrl, noiseUrl, heroOceanUrl, resumeImageUrl } from './assets.js';
 import { profile } from './data.js';
 import { createIntroLoader } from './components/IntroLoader.js';
 import { createHeroSection } from './components/HeroSection.js';
@@ -28,6 +29,9 @@ sceneLayer.innerHTML = `
   <div data-hotspot-tooltip aria-hidden="true"></div>
 `;
 
+document.documentElement.style.setProperty('--noise-image', `url("${noiseUrl}")`);
+document.documentElement.style.setProperty('--hero-ocean-image', `url("${heroOceanUrl}")`);
+
 const loader = createIntroLoader();
 const modal = createModal();
 
@@ -47,7 +51,7 @@ const nav = document.createElement('header');
 nav.className = 'topbar';
 nav.innerHTML = `
   <div class="topbar__brand">
-    <img src="/assets/brand-mark.svg" alt="" aria-hidden="true" />
+    <img src="${brandMarkUrl}" alt="" aria-hidden="true" />
     <span>${profile.name}</span>
   </div>
   <nav class="topbar__nav" aria-label="Primary">
@@ -90,7 +94,7 @@ document.addEventListener('click', (event) => {
 
   if (event.target.closest('[data-download-resume]')) {
     const anchor = document.createElement('a');
-    anchor.href = '/assets/resume-image.png';
+    anchor.href = resumeImageUrl;
     anchor.download = 'Harsha-P-Resume.png';
     anchor.click();
   }

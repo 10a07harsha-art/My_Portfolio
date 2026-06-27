@@ -1,3 +1,5 @@
+import { brandMarkUrl } from '../assets.js';
+
 export function createIntroLoader() {
   const loader = document.createElement('div');
   loader.className = 'intro-loader';
@@ -5,7 +7,7 @@ export function createIntroLoader() {
   loader.innerHTML = `
     <div class="intro-loader__ring" aria-hidden="true"></div>
     <div class="intro-loader__brand">
-      <img src="/assets/brand-mark.svg" alt="" aria-hidden="true" />
+      <img src="${brandMarkUrl}" alt="" aria-hidden="true" />
       <span>Harsha P</span>
     </div>
     <div class="intro-loader__progress">

@@ -1,3 +1,4 @@
+import { resumeImageUrl } from '../assets.js';
 import { aboutPoints } from '../data.js';
 
 export function createAboutSection() {
@@ -46,7 +47,7 @@ export function createAboutSection() {
           </div>
         </div>
         <div class="about__resume glass-panel reveal">
-          <img src="/assets/resume-image.png" alt="Resume preview for Harsha P" />
+          <img src="${resumeImageUrl}" alt="Resume preview for Harsha P" />
         </div>
       </div>
     </div>
