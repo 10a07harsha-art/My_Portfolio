@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" fill="none">
+  <rect width="1600" height="1100" rx="36" fill="#ffffff"/>
+  <rect x="0" y="0" width="530" height="1100" rx="36" fill="#2d2928"/>
+  <circle cx="265" cy="164" r="124" stroke="#cbb06f" stroke-width="6"/>
+  <text x="265" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="104" fill="#cbb06f" letter-spacing="8">HA</text>
+  <text x="92" y="420" font-family="Georgia, serif" font-size="42" fill="#f4ead0" letter-spacing="4">CONTACT</text>
+  <text x="92" y="500" font-family="Arial, sans-serif" font-size="28" fill="#f6f3ef">10a07harsha@gmail.com</text>
+  <text x="92" y="548" font-family="Arial, sans-serif" font-size="28" fill="#f6f3ef">github.com/10a07harsha-art</text>
+  <text x="92" y="666" font-family="Georgia, serif" font-size="42" fill="#f4ead0" letter-spacing="4">EDUCATION</text>
+  <text x="92" y="742" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Presidency University</text>
+  <text x="92" y="790" font-family="Arial, sans-serif" font-size="26" fill="#ece8e2">B.Tech Computer Science Engineering</text>
+  <text x="92" y="834" font-family="Arial, sans-serif" font-size="26" fill="#ece8e2">2023 - 2027</text>
+  <text x="92" y="950" font-family="Georgia, serif" font-size="42" fill="#f4ead0" letter-spacing="4">SKILLS</text>
+  <text x="92" y="1016" font-family="Arial, sans-serif" font-size="26" fill="#f6f3ef">Java, JavaScript, HTML, CSS, Node.js</text>
+  <text x="570" y="144" font-family="Arial, sans-serif" font-size="86" font-weight="700" fill="#222">Harsha P</text>
+  <text x="570" y="260" font-family="Georgia, serif" font-size="42" fill="#333" letter-spacing="6">SUMMARY</text>
+  <text x="570" y="336" font-family="Arial, sans-serif" font-size="26" fill="#4b4b4b">
+    <tspan x="570" dy="0">Computer Science and Engineering student with hands-on experience in</tspan>
+    <tspan x="570" dy="40">web development, Java programming, software testing, and data</tspan>
+    <tspan x="570" dy="40">analytics. Built recruitment platforms, resume builders, and placement</tspan>
+    <tspan x="570" dy="40">portals with a focus on clean UI and practical systems.</tspan>
+  </text>
+  <text x="570" y="580" font-family="Georgia, serif" font-size="42" fill="#333" letter-spacing="6">PROJECTS</text>
+  <circle cx="586" cy="662" r="12" fill="#2d2928"/>
+  <text x="620" y="670" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#222">Orbit Jobs &amp; ForgeHire</text>
+  <text x="620" y="726" font-family="Arial, sans-serif" font-size="24" fill="#4b4b4b">AI-powered recruitment platform and recruiter dashboard.</text>
+  <circle cx="586" cy="820" r="12" fill="#2d2928"/>
+  <text x="620" y="828" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#222">Resume Builder</text>
+  <text x="620" y="884" font-family="Arial, sans-serif" font-size="24" fill="#4b4b4b">Multi-template resumes with PDF export and live preview.</text>
+  <circle cx="586" cy="978" r="12" fill="#2d2928"/>
+  <text x="620" y="986" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#222">Placement Portal</text>
+  <text x="620" y="1042" font-family="Arial, sans-serif" font-size="24" fill="#4b4b4b">Student placement management and recruiter interaction.</text>
+</svg>

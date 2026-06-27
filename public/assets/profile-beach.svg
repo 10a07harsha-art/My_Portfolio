@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c8793"/>
+      <stop offset="42%" stop-color="#4f5862"/>
+      <stop offset="100%" stop-color="#141515"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#59636b"/>
+      <stop offset="100%" stop-color="#151819"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="#050505"/>
+  <rect y="0" width="1200" height="1120" fill="url(#sky)"/>
+  <ellipse cx="640" cy="380" rx="500" ry="340" fill="url(#mist)"/>
+  <rect y="980" width="1200" height="620" fill="url(#sea)"/>
+  <path d="M0 1015C150 1000 278 1020 386 1045C510 1075 618 1110 744 1120C882 1130 1018 1090 1200 1110V1600H0V1015Z" fill="#101315"/>
+  <path d="M0 1120C140 1110 256 1152 372 1178C494 1206 609 1208 742 1200C878 1191 1028 1158 1200 1180V1600H0V1120Z" fill="#0a0d0f"/>
+  <circle cx="610" cy="1030" r="84" fill="#0b0b0b"/>
+  <path d="M612 1118C594 1118 577 1112 566 1101C552 1087 547 1068 548 1045C549 1012 563 986 581 972C596 960 610 954 613 954C621 954 636 960 651 972C669 986 683 1012 684 1045C685 1068 680 1087 666 1101C655 1112 638 1118 620 1118H612Z" fill="#1b1b1b"/>
+  <path d="M535 1250C570 1208 661 1208 694 1250C708 1268 714 1295 714 1324V1600H516V1324C516 1295 522 1268 535 1250Z" fill="#1f1f1f"/>
+  <path d="M500 1212C544 1193 708 1193 754 1212L735 1310H522L500 1212Z" fill="#efefef" opacity="0.9"/>
+  <path d="M555 1230C586 1220 660 1220 689 1230" stroke="#c7ccd1" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+</svg>
